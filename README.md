@@ -30,8 +30,9 @@ ML/AI Component: TensorFlow / PyTorch (future integration)
 
 Version Control: Git & GitHub
 
-Installation & Setup
 
+**Installation & Setup
+**
 Prerequisites
 
 Ensure you have the following installed:
@@ -42,10 +43,15 @@ Node.js 16+
 
 Git
 
+
+
+
 Clone the Repository
 
  git clone https://github.com/S3basG/AICookingAssistant.git
  cd AICookingAssistant
+
+
 
 Backend Setup
 
@@ -63,65 +69,4 @@ Frontend Setup
 
 API Endpoints
 
-Base URL:
-
-http://localhost:8000
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/
-
-Returns a welcome message
-
-GET
-
-/recipes
-
-Fetches available recipes
-
-POST
-
-/recipes
-
-Adds a new recipe
-
-GET
-
-/recipes/{id}
-
-Retrieves details of a specific recipe
-
-Contribution Guidelines
-
-Fork the repository and clone it locally.
-
-Create a new branch (feature-branch-name).
-
-Commit your changes with descriptive messages.
-
-Push to your fork and create a Pull Request.
-
-Follow code style guidelines and review process.
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
-
-For any queries, reach out to:
-
-Project Lead: Sebastian Garcia
-
-GitHub Repository: AI Cooking Assistant
-
-🌟 Show Your Support!
-
-If you found this project useful, consider starring ⭐ the repository on GitHub!
 
