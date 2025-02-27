@@ -1,72 +1,60 @@
-AI Cooking Assistant
+# AI Cooking System
 
 
 
-Overview
+## Introduction
+The **AI Cooking System** is designed to assist users with all their meal-related needs. From suggesting recipes based on dietary preferences and existing inventory to generating guided cooking instructions, our goal is to create an interactive and intelligent cooking companion.
 
-The AI Cooking Assistant is an intelligent system designed to help users with meal planning, guided cooking instructions, and recipe recommendations. It leverages AI/ML capabilities for personalized meal suggestions and step-by-step cooking assistance.
+### Key Functionalities
+- **Recipe Recommendations**: Provide recipes based on user preferences (e.g., spicy, vegan) and the available inventory.
+- **Guided Cooking Instructions**: Step-by-step instructions to help users cook with ease.
+- **Meal Planning**: Suggest weekly or monthly meal plans with considerations for nutrition, dietary restrictions, and expiration dates.
 
-Features
+---
 
-🍽 Recipe Recommendations: AI-driven suggestions based on user preferences and available ingredients.
+## Features
 
-📖 Guided Cooking Instructions: Step-by-step assistance for cooking various meals.
+   - Inventory Management: Track ingredients from grocery receipts or user inputs.  
+   - Automated Recipe Recommendations: Use AI to suggest recipes that match user preferences.  
+   - Guided Cooking: Provide real-time instructions and feedback during the cooking process.  
+   - Future AI Integration: Incorporate advanced ML/AI for more robust recommendations and real-time speech recognition.
 
-📅 Meal Planning: Helps users organize their meals for the week.
+---
 
-🔐 User Authentication: Secure login and personalized user experience.
+## Tech Stack & Tools
+- **Backend**: Django or Flask (Python-based framework)  
+- **Frontend**: React Native (JavaScript)  
+- **Database**: Firebase for real-time database and authentication  
+- **ML/AI Component**: (Future Integration) TensorFlow or PyTorch for advanced data analysis and model training  
+- **Version Control**: Git & GitHub for source code management  
 
-💾 Data Storage: Saves favorite recipes and user preferences.
+## Installation & Setup
 
-Tech Stack & Tools
+### Prerequisites
+Ensure you have the following installed on your machine:
+- **Python 3.9+**
+- **Node.js 16+**
+- **Git**
 
-Backend: Django/Flask (Python)
+```bash
+git clone https://github.com/S3basG/AICookingAssistant.git
+cd AICookingAssistant
 
-Frontend: React Native.js
+```
+```bash
+cd backend
+python -m venv venv
+# Activate virtual environment:
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
 
-Database: Firebase
-
-ML/AI Component: TensorFlow / PyTorch (future integration)
-
-Version Control: Git & GitHub
-
-
-**Installation & Setup
-**
-Prerequisites
-
-Ensure you have the following installed:
-
-Python 3.9+
-
-Node.js 16+
-
-Git
-
-
-
-
-Clone the Repository
-
- git clone https://github.com/S3basG/AICookingAssistant.git
- cd AICookingAssistant
-
-
-
-Backend Setup
-
- cd backend
- python -m venv venv
- source venv/bin/activate  # On Windows: venv\Scripts\activate
- pip install -r requirements.txt
- uvicorn main:app --reload --port 8000
-
-Frontend Setup
-
- cd frontend
- npm install
- npm start
-
-API Endpoints
-
-
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+```
+```bash
+cd ../frontend
+npm install
+npm start
+```
