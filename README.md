@@ -10,16 +10,12 @@ The **AI Cooking System** is designed to assist users with all their meal-relate
 - **Guided Cooking Instructions**: Step-by-step instructions to help users cook with ease.
 - **Meal Planning**: Suggest weekly or monthly meal plans with considerations for nutrition, dietary restrictions, and expiration dates.
 
----
-
 ## Features
 
    - Inventory Management: Track ingredients from grocery receipts or user inputs.  
    - Automated Recipe Recommendations: Use AI to suggest recipes that match user preferences.  
    - Guided Cooking: Provide real-time instructions and feedback during the cooking process.  
    - Future AI Integration: Incorporate advanced ML/AI for more robust recommendations and real-time speech recognition.
-
----
 
 ## Tech Stack & Tools
 - **Backend**: Django or Flask (Python-based framework)  
