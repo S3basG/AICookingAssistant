@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { Ionicons } from '@expo/vector-icons';
 
 type Message = {
   id: string;
@@ -73,6 +74,9 @@ export default function ChatScreen() {
         />
       </ThemedView>
       <ThemedView style={styles.inputContainer}>
+        <TouchableOpacity style={styles.cameraButton}>
+          <Ionicons name="camera" size={24} color="#2196F3" />
+        </TouchableOpacity>
         <TextInput
           style={styles.input}
           value={inputText}
@@ -125,6 +129,10 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderColor: '#ddd',
   },
+  cameraButton: {
+    padding: 10,
+    marginRight: 8,
+  },
   input: {
     flex: 1,
     padding: 10,
@@ -146,5 +154,3 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
-
-export default ChatScreen;
